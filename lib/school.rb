@@ -6,8 +6,5 @@ class School
     @name = name
   end
   
-  def say_name
-    puts "#{@name}"
-  end
   
 end 

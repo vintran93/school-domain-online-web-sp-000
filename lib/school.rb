@@ -1,1 +1,13 @@
-# code here!
+class School
+  
+  attr_reader
+  
+  def initialize(name)
+    @name = name
+  end
+  
+  def say_name
+    puts "#{@name}"
+  end
+  
+end 
